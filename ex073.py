@@ -1,0 +1,5 @@
+times = ('DWG', 'RNG', 'MAD Lions', 'Cloud9', 'GAM', 'PSG Talon', 'UOL', 'PNG')
+print('Os 4 primeiros times são {}'.format(times[:4]))
+print('OS 4 últimos times são {}'.format(times[-4:]))
+print('Os times em ordem alfabetica são {}'.format(sorted(times)))
+print('A pain está na posição: {}'.format(times.index('PNG') + 1))
